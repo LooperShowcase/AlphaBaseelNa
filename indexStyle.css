@@ -1,0 +1,142 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Default background color */
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+
+#navbar li {
+  margin-right: 20px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+#navbar a:hover {
+  color: #ddd;
+}
+
+#pfp {
+  border-radius: 50%;
+}
+
+/* Main content styles */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#purpose {
+  margin-bottom: 20px;
+}
+
+#purpose h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#purpose p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#purpose ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+#purpose li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#modes h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#modes button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#color {
+  margin-right: 10px;
+}
+
+#components h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#list {
+  list-style-type: none;
+}
+
+#list li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#item {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+/* Dark mode styles */
+.dark-mode {
+  background-color: #111;
+  color: white; /* Text color in dark mode */
+}
+
+/* Toggle dark mode by adding a "dark-mode" class to the body */
+body.dark-mode {
+  background-color: #111;
+  color: black;
+}
+
+/* Add dark mode styles to specific elements as needed */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode p {
+  color: black; /* Adjust text color for headings and paragraphs */
+}
+
+body.dark-mode #navbar a {
+  color: white; /* Adjust text color for navigation links */
+}

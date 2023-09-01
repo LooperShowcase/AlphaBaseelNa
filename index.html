@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Build Your First PC</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="indexStyle.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gaming_pc.html">Gaming PC</a></li>
+                <li><a href="comp_pc.html">Competitive PC</a></li>
+                <li><a href="working.html">Work PC</a></li>
+            </ul>
+        </nav>
+        <img id="pfp" width="10%" src="https://st3.depositphotos.com/6672868/13701/v/450/depositphotos_137014128-stock-illustration-user-profile-icon.jpg" alt="User Profile Picture">
+        <input type="file" id="upload" onchange="changepfp()">
+    </header>
+    
+    <main>
+        <section id="purpose">
+            <h1>Welcome to PC Building 101</h1>
+            <p>Before you start building your PC, determine its primary purpose:</p>
+            <ol>
+                <li><a href="gaming_pc.html">Gaming</a></li>
+                <li><a href="comp_pc.html">Competitive Gaming</a></li>
+                <li><a href="working.html">Work</a></li>
+            </ol>
+        </section>
+
+        <section id="modes">
+            <h2>Choose Your Mode</h2>
+            <button id="light" onclick="lightMode()">Light Mode</button>
+            <button id="dark" onclick="darkMode()">Dark Mode</button>
+            <input id="color" type="color" onchange="changeBG()">
+        </section>
+
+        <section id="components">
+            <h2>Your Components</h2>
+            <ul id="list">
+                <!-- List of PC components will go here -->
+            </ul>
+            <input id="item" type="text" placeholder="Add a component">
+            <button onclick="addItem()">Add</button>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content here -->
+    </footer>
+</body>
+</html>

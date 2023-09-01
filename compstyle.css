@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.pc-info {
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add background colors to different sections */
+.pc-info > h1 {
+    background-color: #4285F4;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+#navitem {
+    float: left;
+  }
+  
+  #navitem a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #navitem a:hover {
+    background-color: #008b1e;
+  }
